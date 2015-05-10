@@ -29,6 +29,7 @@
 #include <avr/eeprom.h>
 
 
+#define EEPROMSizeATtiny85    512
 #define EEPROMSizeATmega168   512     
 #define EEPROMSizeATmega328   1024     
 #define EEPROMSizeATmega1280  4096     
@@ -57,6 +58,8 @@
 #define EEPROMSizeTeensy2pp   EEPROMSizeAT90USB1286
 #define EEPROMSizeTeensy3     EEPROMSizeMK20DX128
 #define EEPROMSizeTeensy31    EEPROMSizeMK20DX256
+#define EEPROMSizeTrinket     EEPROMSizeATtiny85
+#define EEPROMSizeProTrinket  EEPROMSizeATmega328
 class EEPROMClassEx
 {
 	  
