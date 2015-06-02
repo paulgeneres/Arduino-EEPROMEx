@@ -17,6 +17,17 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+
+
+// BOF preprocessor bug prevent - insert me on top of your arduino-code
+// From: http://www.a-control.de/arduino-fehler/?lang=en
+// via http://subethasoftware.com/2013/04/09/arduino-compiler-problem-with-ifdefs-solved/
+#if 1
+__asm volatile ("nop");
+#endif
+
+
+
 /******************************************************************************
  * Includes
  ******************************************************************************/
